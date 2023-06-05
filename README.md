@@ -723,9 +723,10 @@ int main(int argc, char **argv)
 
     return EXIT_SUCCESS;
 }
+```
 
 kernel reduceUnrolling16
-
+```
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
